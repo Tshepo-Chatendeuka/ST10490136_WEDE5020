@@ -1,0 +1,45 @@
+body{
+    background-color: rgb(25, 141, 243);
+    color: rgb(15, 7, 7);
+}
+/* Header wrapper */
+header {
+  display: flex;
+  justify-content: space-between;   
+  align-items: center;              
+  background-color: #0A1F44;       
+  padding: 0 40px;
+  height: 80px;                     
+}
+
+header .logo img {
+  display: block;
+  height: 80px;
+  width: 80px;
+}
+
+/* Navigation links */
+header .navigation {
+  display: flex;
+  gap: 25px;                        
+}
+
+header .navigation a {
+  color: #ffffff;                   
+  text-decoration: none;
+  font-size: 16px;
+  padding: 8px 12px;
+  border-radius: 6px;
+  transition: 0.3s ease;
+}
+
+/* Hover effect */
+header .navigation a:hover {
+  background-color: #2E3A45;       
+}
+
+/* Active/Highlight link */
+header .navigation a.active {
+  color: #B71C1C;                   
+  font-weight: bold;
+}
